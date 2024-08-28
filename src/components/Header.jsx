@@ -5,11 +5,11 @@ import { TomIcon } from "./svg/TomIcon";
 
 export const Header = () => {
   return (
-    <main className=" bg-white fixed justify-center w-full flex z-[1]">
-      <div className=" flex justify-between container md:px-[80px] md:py-4 p-4  ">
+    <main className=" bg-[var(--background)] fixed justify-center w-full flex z-[1]">
+      <div className=" flex justify-between container md:max-w-[1280px] md:py-4 md:px-8  ">
         <div className="w-full items-center flex ">
           <a href="#Hero">
-            <TomIcon />
+            <p className="text-[var(--title)]">TOM</p>
           </a>
         </div>
         <div className=" flex justify-between ">
@@ -17,26 +17,26 @@ export const Header = () => {
             <HamburgerIcon />
           </div>
           <div className="gap-6 md:items-center hidden md:flex">
-            <a>
+            <a href="#about" className="text-[var(--title)]">
               <Navigation text={"About"} />
             </a>
 
-            <a>
+            <a className="text-[var(--title)]">
               <Navigation text={"Work"} />
             </a>
 
-            <a>
+            <a className="text-[var(--title)]">
               <Navigation text={"Testimonials"} />
             </a>
 
-            <a>
+            <a className="text-[var(--title)]">
               <Navigation text={"Contact"} />
             </a>
 
             <p className="text-slate-200	">|</p>
             <SunIcon />
-            <button className=" w-[136px] h-[36px] bg-black text-white rounded-xl">
-              {"Download CV"}
+            <button className=" w-[136px] h-[36px] bg-black  rounded-xl text-[var(--dark)]">
+              Download CV
             </button>
           </div>
         </div>

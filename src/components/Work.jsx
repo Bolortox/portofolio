@@ -2,7 +2,7 @@ import { ShareIcon } from "./svg/ShareIcon";
 
 export const Work = () => {
   return (
-    <div className="container max-w-[1440px] h-[1848px] flex flex-col items-center px-20 py-24 m-auto gap-12 ">
+    <div className="container max-w-[1440px] h-[1848px] flex flex-col items-center px-20 py-24 m-auto gap-12 " id="work">
       <div className="gap-y-4 flex flex-col items-center text-slate-600">
         <div className="w-[75px] h-[28px] bg-slate-200 rounded-xl flex justify-center">
           Work

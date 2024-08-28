@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-slate-50" id="about">
       <main className="container m-auto">
         <div className=" flex flex-col md:flex justify-center items-center  md:px-[80px] md:py-[96px] px-4 py-16 gap-4 ">
           {/* dund end  */}

@@ -6,9 +6,9 @@ import { MapIcon } from "./svg/Mapicon";
 
 export const Hero = () => {
   return (
-    <main className="w-full container m-auto " id="Hero">
-      <div className=" flex flex-col md:flex justify-center  m-auto h-full  md:px-[80px] md:py-[96px] px-4 py-16 ">
-        <div className="md:flex justify-between items-center ">
+    <main className="w-full  m-auto bg-[var(--background)] " id="Hero">
+      <div className=" flex flex-col md:flex justify-center  m-auto h-full  md:py-[96px] px-4 py-16 ">
+        <div className="md:flex justify-between items-center md:px-8 md:max-w-[1280px] md:w-full m-auto">
           <div className="max-w-80 flex md:hidden items-center justify-center ">
             <img
               src="./portrait.jpg"
@@ -17,12 +17,12 @@ export const Hero = () => {
         "
             />
           </div>
-          <div className="max-w-[600px]  flex-col">
+          <div className="md:max-w-[600px] md:w-full flex-col">
             <div>
-              <p className="text-6xl font-bold mt-24 md-[text-4xl]">
+              <p className="text-6xl font-bold mt-24 md-[text-4xl] text-[var(--dark)]">
                 Hi I'm Bolortogos 👋
               </p>
-              <p className=" text-slate-600	mt-2">
+              <p className=" text-[var(--text)]	mt-2">
                 I specialize in full stack development, particularly with
                 React.js and Node.js. My main goal is to create exceptional
                 digital experiences that are fast, visually appealing, and

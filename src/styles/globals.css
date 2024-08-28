@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --background: #fff;
+    --text: #4B5563;
+    --title: #111827;
+
+
+}
+
+[data-theme="dark"] {
+    --background: #030712;
+    --text: #D1D5DB;
+    --title: #F9FAFB;
+
+    --dark: #F9FAFB;
+}
+
+* {
+    transition: 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
